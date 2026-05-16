@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Funcionalidades — Foco | LJP Solutions</title>
+  <meta name="description" content="Conheça em detalhes as funcionalidades do Foco: OCR, resumos por IA, flashcards, provas adaptativas, relatórios de desempenho e modo Estudo na câmera." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"></span>
+        Foco<sup>AI</sup>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="funcionalidades.html" class="is-active">Funcionalidades</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="contato.html" class="btn btn-primary">
+          Quero o app
+          <span class="btn-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+        <button class="btn-toggle" aria-label="Abrir menu"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <main id="conteudo-principal">
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Funcionalidades · O que o Foco entrega</span>
+      <h1>Sete funcionalidades. <em>Um único gesto:</em> apertar o botão.</h1>
+      <p class="lead">Cada funcionalidade do Foco foi desenhada em torno de uma única pergunta: como tirar o atrito entre <strong>capturar</strong> e <strong>aprender</strong>?</p>
+      <dl class="meta">
+        <div class="meta-item"><dt>Tempo médio de captura</dt><dd>3 segundos</dd></div>
+        <div class="meta-item"><dt>Acurácia OCR</dt><dd>98% (manuscrito BR)</dd></div>
+        <div class="meta-item"><dt>Idiomas</dt><dd>PT, EN, ES</dd></div>
+        <div class="meta-item"><dt>Offline</dt><dd>100% das revisões</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Funcionalidade 01 -->
+  <section id="fluxo">
+    <div class="container">
+      <div class="feat-row reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 01</span>
+          <h2>Captura inteligente com <em>OCR</em> contextual.</h2>
+          <p>Aponte para qualquer superfície de estudo: slide do projetor, página de livro, anotação à mão, lousa branca, lousa verde. Nosso OCR foi treinado especificamente para conteúdo acadêmico brasileiro — ele entende fórmulas, abreviações de aula, gírias de caderno e até a letra apressada do colega que você fotografou.</p>
+          <ul>
+            <li>Reconhecimento de manuscrito com 98% de acurácia em português</li>
+            <li>Detecção automática de fórmulas matemáticas (LaTeX)</li>
+            <li>Correção perspectiva: foto torta vira página alinhada</li>
+            <li>Captura múltipla: vários slides em uma sequência única</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--brand">
+          <div class="mock-card">
+            <span class="mock-tag">Captura processada</span>
+            <div class="mock-title">Cadeia de Markov · Aula 07</div>
+            <ul>
+              <li>Estado, transição e matriz P</li>
+              <li>Distribuição estacionária π</li>
+              <li>Cadeia ergódica vs. periódica</li>
+              <li>Aplicações em PageRank</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Funcionalidade 02 -->
+      <div class="feat-row reverse reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 02</span>
+          <h2>Resumos que <em>cabem na revisão.</em></h2>
+          <p>A IA do Foco não é genérica. Ela foi calibrada com material acadêmico brasileiro real — provas, livros didáticos, slides de cursinho — e gera resumos no formato que estudante usa de verdade: tópicos, palavras-chave em destaque, mapa mental opcional.</p>
+          <ul>
+            <li>Três níveis: 30s, 5min e revisão completa</li>
+            <li>Mapa mental gerado a partir do mesmo conteúdo</li>
+            <li>Edição rápida: corte, destaque ou comente direto no resumo</li>
+            <li>Exportação para PDF, Notion, Anki</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--ink">
+          <div class="mock-card mock-card--light">
+            <span class="mock-tag mock-tag--brand">Resumo · 30s</span>
+            <div class="mock-title">Revolução Industrial</div>
+            <p class="mock-card-text">
+              Iniciada na <strong>Inglaterra</strong> (séc. XVIII), substituiu trabalho manual por <strong>máquinas a vapor</strong>. Três fases: <strong>1ª</strong> (têxtil, ferro), <strong>2ª</strong> (eletricidade, química), <strong>3ª</strong> (eletrônica, informática).
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Funcionalidade 03 -->
+      <div class="feat-row reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 03</span>
+          <h2>Flashcards com <em>repetição espaçada</em> embutida.</h2>
+          <p>Cada captura vira um deck. Mas não um deck qualquer — usamos o algoritmo SM-2 (mesma base do Anki) calibrado com dados de retenção dos nossos próprios betatesters. O Foco sabe quando você precisa rever cada card antes mesmo de você perceber.</p>
+          <ul>
+            <li>Geração automática de pergunta/resposta a partir do resumo</li>
+            <li>Modo "rápido" (10 cards / 3 min) e modo "imersão"</li>
+            <li>Áudio nativo: ouça os cards no caminho da faculdade</li>
+            <li>Compartilhamento de decks com a turma</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--lime">
+          <div class="mock-flash">
+            <div class="q">O que é entropia em termodinâmica?</div>
+            <div class="a">— Resposta tocando para revelar</div>
+          </div>
+          <div class="mock-flash">
+            <div class="q">Lei de Hess prática</div>
+            <div class="a">ΔH<sub>total</sub> = soma dos ΔH das etapas</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Funcionalidade 04 -->
+      <div class="feat-row reverse reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 04</span>
+          <h2>Provas <em>adaptativas</em> que aprendem com você.</h2>
+          <p>O motor adaptativo do Foco ajusta a dificuldade questão a questão. Acertou três seguidas? O nível sobe. Errou duas? Voltamos para o básico do conceito que travou. O resultado: você passa exatamente o tempo certo em cada tópico.</p>
+          <ul>
+            <li>Banco gerado a partir das suas próprias capturas</li>
+            <li>Dificuldade graduada em 5 níveis</li>
+            <li>Modo simulado com cronômetro estilo ENEM/FUVEST</li>
+            <li>Justificativa pedagógica em cada erro</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--accent">
+          <div class="mock-quiz">
+            <div class="step-tag">Questão 4 / 10 · Nível 3</div>
+            <div class="q-text">Em uma reação exotérmica, o ΔH é:</div>
+            <div class="options">
+              <div class="opt"><span class="letter">A</span> Sempre positivo</div>
+              <div class="opt correct"><span class="letter">B</span> Negativo (libera energia)</div>
+              <div class="opt"><span class="letter">C</span> Igual a zero</div>
+              <div class="opt"><span class="letter">D</span> Independe da reação</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Funcionalidade 05 -->
+      <div class="feat-row reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 05</span>
+          <h2>Relatórios que mostram <em>onde você cresce.</em></h2>
+          <p>Esquece nota fria. O Foco te entrega painéis visuais: matérias com domínio, tópicos com gargalo, evolução semanal, hora do dia com melhor desempenho. Tudo o que um tutor particular faria — sem o custo do tutor particular.</p>
+          <ul>
+            <li>Mapa de calor por matéria e capítulo</li>
+            <li>Linha do tempo de evolução personalizada</li>
+            <li>Alertas inteligentes: "você não revisa isto há 12 dias"</li>
+            <li>Exportação compartilhável para mostrar ao orientador</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--ink">
+          <div class="mock-chart">
+            <div class="ct-title">Desempenho · Última semana</div>
+            <div class="bars">
+              <div class="bar-row ok"><span>Cálculo I</span><div class="bar"><i data-w="88"></i></div><span>88%</span></div>
+              <div class="bar-row ok"><span>Física II</span><div class="bar"><i data-w="76"></i></div><span>76%</span></div>
+              <div class="bar-row ok"><span>Química Org.</span><div class="bar"><i data-w="71"></i></div><span>71%</span></div>
+              <div class="bar-row warn"><span>História</span><div class="bar"><i data-w="42"></i></div><span>42%</span></div>
+              <div class="bar-row warn"><span>Inglês</span><div class="bar"><i data-w="38"></i></div><span>38%</span></div>
+              <div class="bar-row ok"><span>Geografia</span><div class="bar"><i data-w="67"></i></div><span>67%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Funcionalidade 06 -->
+      <div class="feat-row reverse reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 06</span>
+          <h2>Biblioteca <em>auto-organizada.</em></h2>
+          <p>Sem pastas para criar. Sem etiquetas para escolher. O Foco classifica cada captura por matéria, capítulo, professor e data — automaticamente. Sua memória de estudo, sempre encontrável.</p>
+          <ul>
+            <li>Classificação por matéria, capítulo, semestre</li>
+            <li>Busca por texto dentro das próprias fotos</li>
+            <li>Linha do tempo do semestre inteiro</li>
+            <li>Sincronização entre celular, tablet e web</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--brand">
+          <div class="mock-folder">
+            <div class="row">
+              <div class="icon">M</div>
+              <div class="label-text">Cálculo I</div>
+              <div class="count">42 capturas</div>
+            </div>
+            <div class="row">
+              <div class="icon">F</div>
+              <div class="label-text">Física II</div>
+              <div class="count">28 capturas</div>
+            </div>
+            <div class="row">
+              <div class="icon">Q</div>
+              <div class="label-text">Química Orgânica</div>
+              <div class="count">35 capturas</div>
+            </div>
+            <div class="row">
+              <div class="icon">H</div>
+              <div class="label-text">História do Brasil</div>
+              <div class="count">19 capturas</div>
+            </div>
+            <div class="row">
+              <div class="icon">P</div>
+              <div class="label-text">Programação OO</div>
+              <div class="count">51 capturas</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Funcionalidade 07 -->
+      <div class="feat-row reveal">
+        <div>
+          <span class="feat-num">FUNCIONALIDADE / 07</span>
+          <h2>Modo <em>Estudo</em> direto na câmera nativa.</h2>
+          <p>Em vez de abrir um app, depois apertar a câmera, depois esperar carregar — você desliza na câmera nativa do celular como se fosse "Foto", "Vídeo", "Retrato"... e ali está: "Estudo". Um toque até a aprendizagem.</p>
+          <ul>
+            <li>Atalho na tela de bloqueio para captura instantânea</li>
+            <li>Widget de revisão pendente na home screen</li>
+            <li>Notificações silenciosas de janela ideal de revisão</li>
+            <li>Integração com Apple Pencil e S-Pen para anotação direta</li>
+          </ul>
+        </div>
+        <div class="feat-visual feat-visual--dark">
+          <div class="phone-frame phone-frame--sm">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="phone-ui">
+                <div class="phone-ui-bar">
+                  <span>09:41</span>
+                  <span>● ● ●</span>
+                </div>
+                <div class="phone-viewfinder">
+                  <div class="phone-scan-card phone-scan-card--sm">
+                    <strong class="strong-sm">Detectando slide…</strong>
+                    Cadeia de Markov<br/>Estado · Transição · π
+                    <span class="tag">Estudo</span>
+                  </div>
+                </div>
+                <div class="phone-tab-bar">
+                  <span>Foto</span>
+                  <span>Vídeo</span>
+                  <span class="active">Estudo</span>
+                  <span>Retrato</span>
+                </div>
+                <div class="phone-shutter"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="num">04 / Perguntas frequentes</span>
+        <h2 class="h2">Tudo que você quer<br/>perguntar antes <em class="em-brand-italic">de baixar.</em></h2>
+      </div>
+
+      <div class="faq reveal">
+        <div class="faq-item">
+          <button class="faq-q">
+            <span>O Foco funciona offline?</span>
+            <span class="toggle">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Sim. As revisões, flashcards e exercícios funcionam 100% offline depois da primeira captura. A geração inicial de resumo precisa de internet (uma vez), mas tudo o que vem depois pode ser usado no metrô, na sala sem sinal ou no avião.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            <span>Os meus dados são usados para treinar IA?</span>
+            <span class="toggle">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Não. Suas anotações, fotos e resumos são seus. Não usamos seu material para treinar modelos próprios nem repassamos para terceiros. O processamento acontece em servidores criptografados e você pode apagar tudo a qualquer momento.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            <span>Vai ter versão para Android?</span>
+            <span class="toggle">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Sim. O lançamento será simultâneo iOS e Android. Estamos no beta privado em ambas as plataformas, com paridade total de funcionalidades.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            <span>O Foco substitui meu professor?</span>
+            <span class="toggle">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Não. O Foco potencializa quem você já é como estudante. O professor explica, você captura, o Foco organiza. A combinação humana + IA é onde a mágica acontece — não em substituições.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            <span>Quanto vai custar?</span>
+            <span class="toggle">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">O plano gratuito permite até 30 capturas por mês com todas as funcionalidades. O plano Pro (R$ 19,90/mês) libera capturas ilimitadas, exportações premium e relatórios avançados. Estudantes universitários têm 50% de desconto comprovado.</div></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">
+            <span>Como entro no beta privado?</span>
+            <span class="toggle">+</span>
+          </button>
+          <div class="faq-a"><div class="faq-a-inner">Vá até a página de Contato, deixe seus dados e conte um pouco sobre seu curso. Estamos abrindo lotes semanais de 100 estudantes — priorizamos diversidade de instituições e cursos para coletar feedback rico.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Pronto para a<br/><em>câmera mais útil</em><br/>do seu celular?</h2>
+      <p>Entre na lista de espera do beta. Zero spam, só uma notificação quando for sua vez.</p>
+      <div class="cta-btns">
+        <a href="contato.html" class="btn btn-primary">
+          Entrar na lista
+          <span class="btn-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </span>
+        </a>
+        <a href="equipe.html" class="btn btn-ghost">Conhecer a equipe</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  </main><!-- /main -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Foco<em>.</em></div>
+          <p class="footer-tagline">A câmera que estuda com você. Um projeto LJP Solutions desenvolvido para o Hackathon JOVI.</p>
+        </div>
+        <div>
+          <h4>Produto</h4>
+          <ul>
+            <li><a href="funcionalidades.html">Funcionalidades</a></li>
+            <li><a href="funcionalidades.html#fluxo">Fluxo de uso</a></li>
+            <li><a href="contato.html">Beta privado</a></li>
+            <li><a href="#">Roadmap</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="sobre.html#manifesto">Manifesto</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="#">Imprensa</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">JOVI Hackathon</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 <span class="ljp">LJP Solutions</span> — Todos os direitos reservados.</span>
+        <span>Feito para o desafio JOVI · São Paulo, BR</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
